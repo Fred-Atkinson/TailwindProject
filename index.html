@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/74eeb16909.js" crossorigin="anonymous"></script>
+    <title>Netflix</title>
+</head>
+<body class="h-screen w-full bg-cover bg-room bg-no-repeat flex items-center justify-center">
+    
+    <div id="sideBar" class="h-72 w-12 mr-10 backdrop-blur-md bg-gray-800/60  border-white border-2 border-solid rounded-3xl flex flex-col justify-around items-center">
+        <i class="fa-solid fa-circle-play fa-2xl" style="color: #e72323;"></i>
+        <i class="fa-solid fa-table-cells-large fa-xl" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-tv fa-xl" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-tower-broadcast fa-xl" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-house-user fa-xl" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #ffffff;"></i>
+    </div>
+
+    <div class=" w-4/5 h-90 backdrop-blur-md bg-gray-800/60  border-white border-2 border-solid rounded-3xl flex">
+        <div id="sideNav" class="w-1/4 h-full ml-0 border-r-2 bg-gray-800/30 border-white border-solid rounded-l-3xl flex flex-col items-center">
+            <img class="my-5" src="images/Netflix.png" alt="Netflix logo" width="180">
+            <div class=" w-3/4 h-36 flex flex-col justify-around"> 
+                <div class="text-slate-50 font-semibold"><i class="fa-solid fa-circle-play mr-3" style="color: #e72323;"></i>Browse</div>
+                <div class="text-slate-50"><i class="fa-regular fa-heart mr-3" style="color: #c2c2c2;"></i>Wishlist</div>
+                <div class="text-slate-50"><i class="fa-regular fa-calendar-days mr-3" style="color: #c2c2c2;"></i>Coming Soon</div>  
+            </div>
+            <div class="w-5/6 mt-3">
+                <p class="text-slate-50 text-xl">New Trailers &#128293;</p>
+                <div class=" w-4/5 h-24 m-5 rounded-xl bg-cover flex items-end" style="background-image: url(images/shadow.jpg);">
+                    <div class=" w-full h-5 backdrop-blur-md bg-white/30 rounded-b-xl flex items-center justify-evenly">
+                        <span class="text-slate-50 text-xs">Shadow and Bone</span>
+                        <i class="fa-solid fa-play" style="color: #ffffff"></i>
+                    </div>
+                </div>
+                <div class=" w-4/5 h-24 m-5 rounded-xl bg-cover flex items-end" style="background-image: url(images/night.jpg);">
+                    <div class=" w-full h-5 backdrop-blur-md bg-white/30 rounded-b-xl flex items-center justify-around">
+                        <span class="text-slate-50 text-xs">Night Agent</span>
+                        <i class="fa-solid fa-play" style="color: #ffffff"></i>
+                    </div>
+                </div>
+                <div class=" w-4/5 h-24 m-5 rounded-xl bg-cover flex items-end" style="background-image: url(images/witcher.webp);">
+                    <div class=" w-full h-5 backdrop-blur-md bg-white/30 rounded-b-xl flex items-center justify-around">
+                        <span class="text-slate-50 text-xs">The Witcher</span>
+                        <i class="fa-solid fa-play" style="color: #ffffff"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" w-full h-full flex flex-col items-center">
+            <div class="w-11/12 h-5 m-5 flex items-center justify-between">
+                <div class="flex">
+                 <span class="text-white"> &lt; &nbsp;<span class="font-bold">&gt;</span></span>
+                <div class=" w-60 h-9  text-slate-50 bg-slate-600 rounded-xl flex items-center px-3 mx-3 "><i class="fa-solid fa-microphone px-1" style="color: #fcfcfd;"></i>Search...</div>   
+                </div> 
+                <div class="flex">
+                   <div class="h-8 w-8 bg-slate-600 rounded-full flex items-center justify-center">
+                    <i class="fa-solid fa-bell" style="color: #ffffff;"></i>
+                    </div>
+                    <div class="h-9 w-28 bg-slate-600 rounded-xl flex items-center text-slate-50 mx-3">
+                    <img class="h-3/4 w-7 rounded-full border-2 border-red-700 border-solid mx-1 " src="images/mugshot.jpg" alt="very good pfp">
+                    <div class="flex flex-col text-sm">
+                        <div class="font-bold">Billy B.</div>
+                        <div class="text-xs">@Billy</div>
+                    </div>
+                    
+                    </div>  
+                </div>
+               
+            </div>
+            <div class="w-11/12 h-52 bg-red-600 mb-5 bg-cover bg-no-repeat flex flex-col rounded-2xl" style="background-image: url(images/bad.jpg);">
+                <img class="flex items-center w-1/5 h-2/5 mt-8" src="images/badlogo.webp" alt="breaking bad logo">
+                <div class="text-[10px] ml-8 my-5 text-slate-700 font-bold"> 2015 - Drama - 5 Seasons</div>
+                <div class="flex">
+                    <div class="h-9 w-20 bg-red-600 rounded-xl flex justify-center items-center mx-2 ml-7 text-slate-50 font-bold">Watch</div>
+                    <div class="h-9 w-9 bg-slate-600 rounded-xl flex justify-center items-center"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></div>
+                </div>
+            </div>
+            <div class="w-11/12 h-36  m-5 flex flex-col">
+                <div class="ml-3 text-slate-50 font-bold">Popcorn Mania</div>
+                <div class="flex">
+                    <div class=" w-4/5 h-32 m-3 rounded-xl bg-cover flex items-end" style="background-image: url(images/b99.jpg);">
+                        <div class=" w-full h-10 backdrop-blur-md bg-gray-950/30 rounded-b-xl flex items-center justify-around">
+                            <div class="flex flex-col">
+                                <span class="text-slate-50 text-sm">Brooklyn-Nine-Nine</span>
+                                <span class="text-[8px] text-slate-50"> 2020 &nbsp; U/A16+ &nbsp; 7 Seasons</span>
+                            </div>
+                            <div class="text-slate-50">&#8942;</div>
+                            
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-32 m-3 rounded-xl bg-contain flex items-end" style="background-image: url(images/office.webp);">
+                        <div class=" w-full h-10 backdrop-blur-md bg-gray-950/30 rounded-b-xl flex items-center justify-around">
+                            <div class="flex flex-col">
+                                <span class="text-slate-50 text-sm">The Office</span>
+                                <span class="text-[8px] text-slate-50"> 2013 &nbsp; U/A16+ &nbsp; 9 Seasons</span>
+                            </div>
+                            
+                            <div class="text-slate-50">&#8942;</div>
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-32 m-3 rounded-xl bg-contain flex items-end" style="background-image: url(images/p&r.jpg);">
+                        <div class=" w-full h-10 backdrop-blur-md bg-gray-950/30 rounded-b-xl flex items-center justify-around">
+                            <div class="flex flex-col">
+                                <span class="text-slate-50 text-sm">Parks & Recreation</span>
+                                <span class="text-[8px] text-slate-50"> 2015 &nbsp; U/A16+ &nbsp; 7 Seasons</span>
+                            </div>
+                            
+                            <div class="text-slate-50">&#8942;</div>
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-32 m-3 rounded-xl bg-cover flex items-end" style="background-image: url(images/elcamino.jpg);">
+                        <div class=" w-full h-10 backdrop-blur-md bg-gray-950/30 rounded-b-xl flex items-center justify-around">
+                            <div class="flex flex-col">
+                                <span class="text-slate-50 text-sm">El Camino</span>
+                                <span class="text-[8px] text-slate-50"> 2019 &nbsp; U/A18+ &nbsp; 2hrs 2min </span>
+                            </div>
+
+                            <div class="text-slate-50">&#8942;</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            <div class="w-11/12 h-28  m-5 flex flex-col">
+                <div class="ml-3 text-slate-50 font-bold">Continue Watching</div>
+                <div class="flex">
+                    <div class=" w-4/5 h-24 m-3 rounded-xl bg-red-600 bg-cover flex flex-col" style="background-image: url(images/cobra4.webp);">
+                        <div class=" flex justify-center mt-8  "><i class="fa-solid fa-play" style="color: #ffffff;"></i></div>
+                        <div class=" w-full h-10  flex">
+                            
+                            <div class="flex flex-col w-full ml-1.5 justify-end">
+                                <span class="text-slate-300 text-xs ">Cobra Kai: S1 Ep4</span>
+                                <div class="w-11/12 h-1 bg-slate-500 "><div class="bg-red-700 w-1/2 h-1"></div></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-24 m-3 rounded-xl bg-red-600 bg-cover flex flex-col" style="background-image: url(images/outer.webp);">
+                        <div class=" flex justify-center mt-8  "><i class="fa-solid fa-play" style="color: #ffffff;"></i></div>
+                        <div class=" w-full h-10  flex">
+                            
+                            <div class="flex flex-col w-full ml-1.5 justify-end">
+                                <span class="text-slate-300 text-xs ">Outer Banks: S2 Ep5 </span>
+                                <div class="w-11/12 h-1 bg-slate-500 "><div class="bg-red-700 w-2/5 h-1"></div></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-24 m-3 rounded-xl bg-red-600 bg-cover flex flex-col" style="background-image: url(images/gale_death.webp);">
+                        <div class=" flex justify-center mt-8  "><i class="fa-solid fa-play" style="color: #ffffff;"></i></div>
+                        <div class=" w-full h-10  flex">
+                            
+                            <div class="flex flex-col w-full ml-1.5 justify-end">
+                                <span class="text-slate-300 text-xs ">Breaking Bad: S3 Ep13</span>
+                                <div class="w-11/12 h-1 bg-slate-500 "><div class="bg-red-700 w-11/12 h-1"></div></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    <div class=" w-4/5 h-24 m-3 rounded-xl bg-red-600 bg-cover flex flex-col" style="background-image: url(images/future.jpg);">
+                        <div class=" flex justify-center mt-8  "><i class="fa-solid fa-play" style="color: #ffffff;"></i></div>
+                        <div class=" w-full h-10  flex">
+                            
+                            <div class="flex flex-col w-full ml-1.5 justify-end">
+                                <span class="text-slate-300 text-xs ">Back To The Future</span>
+                                <div class="w-11/12 h-1 bg-slate-500 "><div class="bg-red-700 w-2/12 h-1"></div></div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>   
+        </div>
+       
+    </div>
+  
+</body>
+</html>
